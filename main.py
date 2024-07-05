@@ -10,4 +10,4 @@ elif info[1] < 18 and info[1] >= 13:
 elif info[1] < 13:
     print("Your a child")
     
-    def 
+    
