@@ -4,29 +4,192 @@
 
 <head> 
     <title>My first website</title>
-
+    <meta charset="UTF-8">
+    <meta name="description" content="STREAMING">
+    <meta name="keywords" content="movies, shows, tv">
+    <meta name="author"   author="Nobody">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 </head>
 
 <body>
     <!--first website-->
-    <h1>This is my website</h1>
+    <h1 style="color: #ff0000;">This is my <i>website</i></h1>
     <hr>
-    <h1>Welcome</h1>
-    <hr>
-    <a href="https://dlhd.so" target=_blank= title="Enjoy!"> 
-    free cable tv  
-    </a>
-    <h2>I like pizza!</h2>
+    <h1 style="color: rgb(255, 251, 0);"> Welcome</h1>
+    
+    <h2 style="color: rgb(89, 0, 255);"> LIST OF STREAMING SITES </h2>
+    <ul>
+        <li><a href="https://dlhd.so" target=_blank= title="Enjoy!"> 
+            cable tv  
+            </a></li>
+        <li><a href="https://hianime.to/home" target=_blank= title="Enjoy!"> 
+            anime
+            </a></li>
+                    <ul>
+                        <li>sublist </li>    
+                    </ul>
+
+    </ul>
+    <ol type="I">
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+
+    </ol>
+    <dl> 
+        <dt>Football</dt>
+        <dd>One of the world most popular sports</dd>
+
+    </dl>
+    <table bgcolor="black" width ="700">
+        <tr bgcolor="purple">
+            <th width ="100">Sunday</th>
+            <th width ="100">Monday</th>
+            <th width ="100">Tuesday</th>
+            <th width ="100">Wednesday</th>
+            <th width ="100">Thursday</th>
+            <th width ="100">Friday</th>
+            <th width ="100">Saturday</th>
+        </tr>
+        <tr bgcolor="orange" align="center">
+            <td>first</td>
+            <td>second</td>
+            <td>third</td>
+            <td>fourth</td>
+            <td>fifth</td>
+            <td>sixth</td>
+            <td>seventh</td>
+
+        </tr>
+    </table>
+    <iframe src="https://www.animefillerlist.com"></iframe>
+    <a href="https://www.google.ca/?hl=fr"target=_blank=>
+    <button onclick="doSomething()" style="background-color: #ff0000; color: #6200ff; border-radius: 5px;" >click me</button>
+    <p id="test">Hello</p>
+
+    <script> 
+        function doSomething(){
+            document.getElementById("test").innerHTML = "Goodbye"
+        }
+    </script>
+    </a>    
+    <form action="action_page.php" method="">
+        <div>
+            <label for="fname">first name:</label>
+            <input type="text" id="fname" name="fname" placeholder="first name goes here" required>
+        </div>
+
+        <br>
+        <div>
+            <label for="lname">last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="last name goes here" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pass">password:</label>
+            <input type="password" id="pass" max length="12" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">email:</label>
+            <input type="email" id="email" max length="12" required placeholder="name@gmail.com"> 
+        </div>
+
+        <br>
+
+        <div>
+            <label for="phone">phone:</label>
+            <input type="tel" id="phone"  required placeholder="(123) 456-7890"> 
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bdate">bdate:</label>
+            <input type="date" id="bdate" required > 
+        </div>
+
+        <br>
+
+        <div>
+            <label for="quantity">quantity:</label>
+            <input type="number" id="quantity" required min="0" max="100" value="1"> 
+        </div>
+        <br>
+
+        <div>
+            <label for="title">title</label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." name="title" value="Mr."> 
+
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" id="Mrs." name="title" value="Mrs."> 
+
+            <label for="Phd.">PhD.</label>
+            <input type="radio" id="Phd." name="title" value="Phd."> 
+        </div>
+
+        <br>
+
+        <div>
+            <label for="payment">payment:</label>
+            <select id="payment" name ="payment" required >
+                <option value="visa"> visa </option>
+                <option value = "mastercard">mastercard </option>
+                <option value = "giftcard">giftcard </option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="subscribe">subscribe:</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+        </div>
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+
+            <input type="submit">
+        </div>
+    </form>
+    <h2>I <b>like</b> pizza!</h2>
     <h3>I like pizza!</h3>
     <h4>I like pizza!</h4>
     <h5>I like pizza!</h5>
+        <audio controls> 
+            <source src="Not Like Us.mp3">
+        </audio>    
+    
+    <b>Click</b> for a <mark><big>suprise!</big></mark>
     <h6>I like pizza!</h6>
-    <img src="cabletv.jpg.jpg" height="310">
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, sed magni inventore laudantium, nobis numquam repellendus soluta, iste eius recusandae saepe deserunt non placeat quae voluptates molestiae voluptatem expedita natus.   </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam ex voluptate eveniet, labore quam quo mollitia, sed doloremque optio aperiam fuga cum, dolorum odit animi eum. Laboriosam quas sequi voluptatem.</p>
-
+    
+        <video controls width= "1000" length = "1000"> 
+            <source src="carsvideo.mp4"  >
+        </video>
+    <img src="cabletv.jpg" height="310" alt = "Pic">
+    <a href="https://hianime.to/home" target=_blank= title="Anime">
+    <img src="animepic.jpg" heigth = "310" width ="400" align = "right" >
+    </a>
+    <div style="background-color: blueviolet;">
+    <p style= color:orange;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, sed magni inventore laudantium, nobis numquam repellendus soluta, iste eius recusandae saepe deserunt non placeat quae voluptates molestiae voluptatem expedita natus.   </p>
+    <p style= color:orange;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam ex voluptate eveniet, labore quam quo mollitia, sed doloremque optio aperiam fuga cum, dolorum odit animi eum. Laboriosam quas sequi voluptatem.</p>
+    
+    </div>
+    <p> 
+        <span style="color: blue;"> ipsum dolor sit amet consectetur adipisicing elit.</span> Ea quod veniam repellat ullam quas, obcaecati, aut error facere laudantium atque numquam rem quibusdam impedit voluptatum debitis hic nobis dolore. Dolorem!
+    </p>
 
     
 </body>
