@@ -1,5 +1,7 @@
 def ball(x):
-    print(x + 5)
+    return x + 5
 
-ball(4)
 
+list1 = [ball(4), 9]
+
+print(list1[0])
