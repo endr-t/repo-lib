@@ -1,25 +1,45 @@
 
 body{
-    background-color: rgb(31, 30, 30);
-    }
+    background-color: rgb(0, 0, 0);
+    background-image: url(14.jpg);
+    
+    
+}
+  
+
 
 
 #title{
-    color: #ff0000;
+    color: goldenrod;
     font-family: "Bona Nova SC", sans-serif;
     font-weight: bold;
-    text-decoration: dotted underline;
+    text-decoration: dotted un;
     font-size: 40px;
-
+    border-top: dotted ;
+    border-bottom: dotted;
+    border-color: goldenrod;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
 }
-h2{
-    color: rgb(89, 0, 255);
 
-    }
+h2{
+    color: rgb(161, 83, 9);
+}
+
+
+#Welcome{
+    color: goldenrod;
+}
+   
+    
         
 #p1{
     color:rgb(255, 51, 0);
     background-color: rgb(135, 222, 171);
+    border-style: solid;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 #divp2{
