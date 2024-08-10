@@ -1,0 +1,164 @@
+#title{
+    margin-left: 30%;
+    color: white;
+}
+body{
+    background: linear-gradient(to left,rgb(83, 9, 126), rgb(214, 19, 19));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+    
+    
+   
+}
+#wrap{
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+    height: 960px;
+}
+
+.container{
+    display: flex;
+    
+    border: 1px solid white;
+    min-height: 570px;
+    max-width: 53.7%;
+    
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow:0 0 20px rgb(209, 207, 207);
+    text-shadow: 0 0 5px rgb(63, 60, 60);
+    
+    
+}
+.calculation{
+    display: flex;
+    position: absolute;
+    height: 118px;
+    
+
+}
+#calcs{
+    min-width: 500px;
+    font-size: xx-large;
+    background: transparent;
+    color: white;
+    box-shadow:0 0 20px white;
+    text-shadow: 0 0 5px white;
+    justify-content: center;
+    max-width: 38.9%;
+    position: relative;
+    border-color: transparent;
+}
+#calcs.onclick{
+    border-color: transparent;
+}
+.container1{
+    display: flex;
+    position: absolute;
+
+    top: 198px;
+    
+    
+}
+    
+
+.container2{
+    display: flex;
+    
+    
+    position: relative;
+    top: 208px;
+    
+}
+.container3{
+    display:flex;
+   
+    
+    position: absolute;
+    top: 378px;
+}
+
+
+.container4{
+    display: flex;
+   
+    
+    position: absolute;
+    top: 468px;
+}
+
+
+
+
+.container5{
+    display: flex;
+    position: absolute;
+    top: 558px;
+    
+    align-items: flex-end;
+    
+    
+}
+
+
+#equal{
+    width: 126px;
+}
+#period{
+    width: 125px;
+    font-size: xx-large;
+}
+#divide{
+    font-size: 25px;
+}
+#multiply{
+    font-size: 25px;
+}
+#add{
+    font-size: 25px;
+}
+#subtract{
+    font-size: 25px
+}
+
+.normalsize{
+    height: 90px;
+    width: 125.7px;
+    font-size: large;
+    background: transparent;
+    border-color: none;
+    color: white;
+    border: 1px solid transparent;
+}
+.normalsize:hover{
+    letter-spacing: 0.25em;
+    box-shadow:0 0 35px white;
+    text-shadow: 0 0 5px white;
+}
+#num0{
+    
+    width: 252px;
+    height: 90px;
+    font-size: large;
+    background: transparent;
+    color: white;
+    border: 1px solid transparent;
+
+}
+ #num0:hover{
+    letter-spacing: 0.25em;
+    box-shadow:0 0 35px white;
+    text-shadow: 0 0 5px white;
+ }   
+#signature{
+    margin-left: 30%;
+    color: white;
+}
+    
+    
+
+

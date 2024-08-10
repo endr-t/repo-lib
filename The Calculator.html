@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mycalculator</title>
+    <link rel="stylesheet" href="calc.css" />
+</head>
+<body>
+    <div id="wrap">
+    <div id="title"><h1> Calculator</h1></div>
+<div class="container">
+    <div class="calculation">
+    <input type="text" id="calcs" onkeydown="return false" name="Name">
+    </div>
+    <div class="container1">
+        <button onclick= "clearDisplay()"   id="clear" class="normalsize" type="button">A/C</button> 
+        <button onclick = "appendToDisplay('-')" id="posneg" class="normalsize" type="button">+/-</button> 
+        <button onclick= "appendToDisplay('%')"" id= "percent" class="normalsize" type="button">%</button> 
+        <button onclick= "appendToDisplay('÷')" id="divide" class="normalsize" type="button">÷</button>  
+    </div>
+        <div class ="container2">
+        <button onclick= "appendToDisplay('7')" id="num7" class="normalsize" type="button">7</button> 
+        <button onclick= "appendToDisplay('8')" id="num8" class="normalsize" type="button">8</button> 
+        <button onclick= "appendToDisplay('9')" id="num9" class="normalsize" type="button">9</button> 
+        <button onclick= "appendToDisplay('×')" id="multiply" class="normalsize" type="button">×</button>   
+    </div>
+    <div class ="container3">
+        <button onclick=" appendToDisplay('4')" id="num4" class="normalsize" type="button">4</button> 
+        <button onclick= "appendToDisplay('5')" id="num5" class="normalsize" type="button">5</button> 
+        <button onclick= "appendToDisplay('6')" id="num6" class="normalsize" type="button">6</button> 
+        <button onclick= "appendToDisplay('-')" id="subtract" class="normalsize" type="button">-</button> 
+    </div>
+    <div class="container4">  
+        <button onclick= "appendToDisplay('1')" id="num1" class="normalsize" type="button">1</button> 
+        <button onclick= "appendToDisplay('2')" id="num2" class="normalsize" type="button">2</button> 
+        <button onclick= "appendToDisplay('3')" id="num3" class="normalsize" type="button">3</button> 
+        <button onclick= "appendToDisplay('+')" id="add" class="normalsize" type="button">+</button> 
+    </div>
+    <div class="container5">
+    <button onclick= "appendToDisplay('0')" id="num0" type="button">0</button> 
+    <button onclick= "appendToDisplay('.')" id="period" class="normalsize" type="button">.</button> 
+    <button onclick= "answerToDisplay()" id="equal" class="normalsize" type="button">=</button> 
+    </div>   
+</div>
+<div id="signature"><h3>CREATED BY TYRONE</h3></div>
+</div>
+    <script src="calc.js"></script>
+</body>
+</html>

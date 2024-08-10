@@ -1,0 +1,30 @@
+#countLabel {
+  display: block;
+  font-size: 50px;
+  text-align: center;
+  color: blueviolet;
+}
+
+#decreasebutton {
+  margin-left: 40%;
+  color: red;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#increasebutton {
+  color: rgb(22, 182, 7);
+  border-radius: 10px;
+  padding: 10px;
+}
+#tempALL{
+  position: relative;
+  right: -300px;
+  top:  -45px;
+  font-size: 40px;
+}  
+  
+body{
+    background-color: rgb(255, 253, 253);
+}
+
